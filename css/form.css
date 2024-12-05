@@ -1,0 +1,23 @@
+
+form.feedback-form{
+    position: absolute;
+    width: 30%; 
+    font-size: 20px;
+}
+form.feedback-form button{
+    background-color: #4566dd;
+    border:none;
+    border-radius: 8px;
+    padding:10px 20px;
+    transition: all 0.5s;
+}
+form.feedback-form button:hover{
+    background-color:#6C8CFF;
+}
+form.feedback-form input, form.feedback-form textarea{    
+    width: 100%;
+    transition: border-color 0.8s;
+}
+form.feedback-form input:hover, form.feedback-form textarea:hover{
+    border-color:  black;
+}
